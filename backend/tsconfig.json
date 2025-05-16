@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",                     // JS-Version
+        "module": "commonjs",                   // Module-System  
+        "outDir": "./dist",                     // Ausgabe-Ordner
+        "rootDir": "./src",                     // Quell-Ordner
+        "strict": true,                         // Strenge Typ-Prüfung
+        "esModuleInterop": true,                // ES-Module Interoperabilität
+        "skipLibCheck": true,                   // Bibliotheken nicht prüfen
+        "forceConsistentCasingInFileNames": true    // Konsistente Groß-/Kleinschreibung in Dateinamen
+    },
+    "include": ["src/**/*"]                     // Einzuschließende Dateien
+}
